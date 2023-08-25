@@ -1,1 +1,1 @@
-python("from debloat_maya-0.0.2.bin import unload_plugins; unload_plugins.show_window()");
+python("from debloat_maya.bin import unload_plugins; unload_plugins.show_window()");
