@@ -40,7 +40,7 @@ class PluginUnloadWindow(QtWidgets.QDialog):
             row = index // num_columns
             col = index % num_columns
 
-            # Ticking recommended plugins
+            # Ticking recommended plugins already
             is_checked = plugin in RECOMMENDED_UNLOAD
             checkbox = QtWidgets.QCheckBox(plugin)
             checkbox.setChecked(is_checked)
